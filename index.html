@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <!-- <link href="forbestproject.css" type="text/css" rel="stylesheet"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <title>Bakeshop website</title>
+  <link href="menuforbestproject.html">
+  <link href="social%20media%20for%20best%20project.html">
+  <link href="contact%20for%20best%20project.html">
+  <link href="about%20for%20my%20best%20project.html">
+
+
+<style>
+  .fullpage {
+    width: 100%;
+    background-color: lightskyblue ;
+}
+.first {
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    font-size: 35px;
+    z-index: 1;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+}
+ul{
+   list-style: none;
+}
+.hov {
+    text-decoration: none;
+}
+li:hover{
+    background-color: white;
+    color: darkcyan;
+}
+.firstpart{
+    padding-left: 35px;
+}
+.secondpart{
+    padding-left: 305px;
+}
+.second1 {
+    position: relative;
+}
+.second2 {
+    position: absolute;
+    font-size: 25px;
+    top: 90px;
+    left: 80px;
+    color: lightskyblue;
+    font-family: sans-serif;
+    border: solid 1px lightsteelblue;
+}
+.second3 {
+    position: absolute;
+    font-size: 22px;
+    font-weight: bold;
+    top: 450px;
+    left: 860px;
+    color: white;
+    font-family: sans-serif;
+}
+.second4 {
+    position: absolute;
+    font-size: 60px;
+    font-weight: bold;
+    top: 480px;
+    left: 630px;
+    color: white;
+    font-family: sans-serif;
+}
+.second5 {
+    position: absolute;
+    font-size: 35px;
+    font-weight: bold;
+    top: 570px;
+    left: 864px;
+    color: white;
+    background-color: lightgreen;
+    border: dot-dash darkturquoise;
+    font-family: sans-serif;
+}
+.second6 {
+    position: absolute;
+    font-size: 25px;
+    color: black;
+    top: 90px;
+    right: 80px;
+    border: dotted 1px lightsteelblue;
+    font-family: sans-serif;
+}
+.third {
+    text-align: center;
+    font-size: 30px;
+    color: cadetblue;
+    text-decoration: underline darkviolet;
+}
+
+.fourth {
+    margin: 47px;
+}
+.fifth {
+    margin-left: 450px;
+    color: coral;
+    font-size: 28px;
+}
+.sixth {
+    width: 100%;
+}
+.sixth1 {
+    font-size: 33px;
+    text-align: center;
+    color: deeppink;
+}
+.sixth2 {
+    font-size: 15px;
+    color: darkblue;
+    text-align: center;
+}
+.sixth3{
+    font-size: 25px;
+    margin-left: 39px;
+    color: deeppink;
+}
+.sixth4{
+    font-size: 15px;
+    color: darkblue;
+    margin-left: 39px;
+}
+.seventh {
+    width: 100%;
+    background-image: url("backgorund image.jpeg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:1000px;
+}
+.seventh1 {
+    padding-top: 240px;
+    padding-left: 320px;
+    font-size: 24px;
+}
+.eighth {
+    width: 100%;
+    height: 350px;
+    background-color: darkslategray;
+}
+.eighth1 {
+    font-size: 18px;
+    color: cyan;
+    font-family: "Rockwell Extra Bold";
+    padding-left: 400px;
+    padding-top: 90px;
+}
+.eighth2 {
+    padding-left: 600px;
+    padding-top: 50px;
+    font-size: 25px;
+}
+.eighth3 {
+    height: 50px;
+}
+.eighth4:hover {
+    color: white;
+}
+@media screen and (max-width: 1590px) and (min-width: 1380px) {
+    .first{
+        width:100%;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 1379px) and (min-width:1080px) {
+    .first{
+        width:100%;
+        font-size: 25px;
+    }
+    .secondpart{
+        padding-left: 260px;
+    }
+}
+@media screen and (max-width: 1079px) and (min-width:900px) {
+    .first {
+        width: 100%;
+        font-size: 22px;
+    }
+    .secondpart{
+        padding-left: 230px;
+    }
+}
+@media screen and (max-width: 899px) and (min-width:730px) {
+    .first {
+        width: 100%;
+        font-size: 20px;
+    }
+    .secondpart{
+        padding-left: 130px;
+    }
+}
+@media screen and (max-width: 729px) and (min-width:590px) {
+    .first {
+        width: 100%;
+        font-size: 18px;
+    }
+    .secondpart{
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width: 589px) and (min-width:470px) {
+    .first {
+        width: 100%;
+        font-size: 16px;
+    }
+    .secondpart{
+        padding-left: 30px;
+    }
+}
+@media screen and (max-width: 469px) and (min-width:431px) {
+    .first {
+        width: 100%;
+        font-size: 15px;
+    }
+    .secondpart{
+        padding-left: 16px;
+    }
+}
+@media screen and (max-width: 430px) and (min-width: 380px) {
+    .first {
+        width: 100%;
+        height: 28px;
+        padding-top: 5px;
+        font-size: 12px;
+    }
+    .secondpart{
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width: 379px) and (min-width: 10px) {
+    .first {
+        width: 100%;
+        height: 28px;
+        padding-top: 5px;
+        font-size: 6px;
+    }
+    .secondpart{
+        padding-left: 4px;
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 780px) {
+    .second1 {
+        position: relative;
+    }
+    .second2 {
+        position: absolute;
+        font-size: 20px;
+        top: 60px;
+        left: 52px;
+        color: lightskyblue;
+        font-family: sans-serif;
+        border: solid 1px lightsteelblue;
+    }
+    .second3 {
+        position: absolute;
+        font-size: 15px;
+        font-weight: bold;
+        top: 210px;
+        left: 346px;
+        color: white;
+        font-family: sans-serif;
+    }
+    .second4 {
+        position: absolute;
+        font-size: 28px;
+        font-weight: bold;
+        top: 230px;
+        left: 260px;
+        color: white;
+        font-family: sans-serif;
+    }
+    .second5 {
+        position: absolute;
+        font-size: 24px;
+        font-weight: bold;
+        top: 270px;
+        left: 347px;
+        color: white;
+        background-color: lightgreen;
+        border: dot-dash darkturquoise;
+        font-family: sans-serif;
+    }
+    .second6 {
+        position: absolute;
+        font-size: 20px;
+        color: lightgrey;
+        top: 60px;
+        right: 52px;
+        border: dotted 1px lightsteelblue;
+        font-family: sans-serif;
+    }
+}
+@media screen and (max-width: 430px) and (min-width: 380px) {
+    .second1 {
+        position: relative;
+    }
+    .second2 {
+        position: absolute;
+        font-size: 12px;
+        top: 44px;
+        left: 35px;
+        color: lightskyblue;
+        font-family: sans-serif;
+        border: solid 1px lightsteelblue;
+    }
+    .second3 {
+        position: absolute;
+        font-size: 8px;
+        font-weight: bold;
+        top: 122px;
+        left: 175px;
+        color: white;
+        font-family: sans-serif;
+    }
+    .second4 {
+        position: absolute;
+        font-size: 17px;
+        font-weight: bold;
+        top: 132px;
+        left: 118px;
+        color: white;
+        font-family: sans-serif;
+    }
+    .second5 {
+        position: absolute;
+        font-size: 10px;
+        font-weight: bold;
+        top: 158px;
+        left: 186px;
+        color: white;
+        background-color: lightgreen;
+        border: dot-dash darkturquoise;
+        font-family: sans-serif;
+    }
+    .second6 {
+        position: absolute;
+        font-size: 12px;
+        color: lightgrey;
+        top: 44px;
+        right: 35px;
+        border: dotted 1px lightsteelblue;
+        font-family: sans-serif;
+    }
+}
+@media screen and (max-width: 1550px) and (min-width: 1200px) {
+    .third {
+        text-align: center;
+        font-size: 30px;
+        color: blueviolet;
+        text-decoration: underline darkviolet;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width: 801px) {
+    .third {
+        text-align: center;
+        font-size: 25px;
+        color: blueviolet;
+        text-decoration: underline darkviolet;
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 780px) {
+    .third {
+        text-align: center;
+        font-size: 19px;
+        color: blueviolet;
+        text-decoration: underline darkviolet;
+    }
+}
+@media screen and (max-width: 779px) and (min-width: 431px) {
+    .second6 {
+        position: absolute;
+        font-size: 16px;
+        color: blue;
+        top: 84px;
+        right: 80px;
+        border: dotted 1px lightsteelblue;
+        font-family: sans-serif;
+    }
+    .third {
+        padding-right: 100px;
+        font-size: 15px;
+        color: darkblue;
+        text-decoration: underline darkviolet;
+    }
+}
+@media screen and (max-width: 430px) and (min-width: 300px) {
+    .second6 {
+        position: absolute;
+        font-size: 14px;
+        color: blue;
+        top: 44px;
+        right: 80px;
+        border: dotted 1px lightsteelblue;
+        font-family: sans-serif;
+    }
+    .third {
+        padding-right: 55px;
+        font-size: 11px;
+        color: red;
+        text-decoration: underline darkviolet;
+        margin-top: -25px;
+    }
+}
+
+@media screen and (max-width: 1550px) and (min-width: 1200px) {
+    .fourth {
+        margin: 27px;
+    }
+    .fourth1{
+            margin: 30px;
+    }
+}
+@media screen and (max-width: 379px) and (min-width: 320px) {
+    .fourth {
+        margin: 10px;
+    }
+    .fourth1{
+            margin: 5px;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 780px) {
+    
+    .fourth1{
+        margin: 56px;
+    }
+    .fourth2{
+        margin-top: -30px;
+    }
+}
+@media screen and (max-width: 430px) and (min-width: 380px) {
+    .fourth3 {
+        margin-top: -32px;
+    }
+}
+@media screen and (max-width: 1000px) and (min-width: 801px) {
+    .fifth {
+        margin-left: 360px;
+        color: coral;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 780px) {
+    .fifth {
+        margin-left: 120px;
+        color: coral;
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 779px) and (min-width: 431px) {
+    .fifth {
+        margin-left: 120px;
+        color: coral;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 430px) and (min-width: 380px) {
+    .fifth {
+        margin-left: 64px;
+        color: coral;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 379px) and (min-width: 10px) {
+    .fifth {
+        margin-left: 20px;
+        color: coral;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 780px) {
+    .seventh1 {
+        padding-top: 240px;
+        padding-left: 110px;
+        font-size: 18px;
+    }
+    .seventh2 {
+        margin-top: 16px;
+        margin-left: 155px;
+    }
+}
+@media screen and (max-width: 430px) and (min-width: 380px) {
+    .seventh1 {
+        padding-top: 240px;
+        padding-left: 1px;
+        font-size: 16px;
+    }
+    .seventh3 {
+        width: 24.7rem;
+    }
+}
+@media screen and (max-width: 1600px) and (min-width: 1200px) {
+    .eighth {
+        width: 100%;
+        height: 330px;
+        background-color: darkmagenta;
+    }
+    .eighth1 {
+        font-size: 15px;
+        color: cyan;
+        font-family: "Rockwell Extra Bold";
+        padding-left: 300px;
+        padding-top: 90px;
+    }
+    .eighth2 {
+        padding-left: 430px;
+       /* margin-top: 10px; */
+        font-size: 16px;
+    }
+    .eighth3 {
+        height: 40px;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width: 1000px) {
+    .eighth {
+        width: 100%;
+        height: 330px;
+        background-color: darksalmon;
+    }
+    .eighth1 {
+        font-size: 15px;
+        color: cyan;
+        font-family: "Rockwell Extra Bold";
+        padding-left: 80px;
+        padding-top: 90px;
+    }
+    .eighth2 {
+        padding-left: 430px;
+       /* margin-top: 10px; */
+        font-size: 16px;
+    }
+    .eighth3 {
+        height: 40px;
+    }
+}
+@media screen and (max-width: 999px) and (min-width: 801px) {
+    .eighth {
+        width: 100%;
+        height: 330px;
+        background-color: darkgrey;
+    }
+    .eighth1 {
+        font-size: 15px;
+        color: cyan;
+        font-family: "Rockwell Extra Bold";
+        padding-left: 20px;
+        padding-top: 90px;
+    }
+    .eighth2 {
+        padding-left: 430px;
+       /* margin-top: 10px; */
+        font-size: 16px;
+    }
+    .eighth3 {
+        height: 40px;
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 780px) {
+    .eighth {
+        width: 100%;
+        height: 330px;
+        background-color: darkblue;
+    }
+    .eighth1 {
+        font-size: 15px;
+        color: cyan;
+        font-family: "Rockwell Extra Bold";
+        padding-left: 100px;
+        padding-top: 90px;
+    }
+    .eighth2 {
+        padding-left: 430px;
+       margin-top: -184px;
+        font-size: 16px;
+    }
+    .eighth3 {
+        height: 40px;
+    }
+}
+@media screen and (max-width: 779px) and (min-width: 670px) {
+    .eighth {
+        width: 100%;
+        height: 330px;
+        background-color: darkblue;
+    }
+    .eighth1 {
+        font-size: 15px;
+        color: cyan;
+        font-family: "Rockwell Extra Bold";
+        padding-left: 100px;
+        padding-top: 90px;
+    }
+    .eighth2 {
+        padding-left: 430px;
+       margin-top: -184px;
+        font-size: 16px;
+    }
+    .eighth3 {
+        height: 40px;
+    }
+}
+@media screen and (max-width: 669px) and (min-width: 549px) {
+    .eighth {
+        width: 100%;
+        height: 330px;
+        background-color: darkblue;
+    }
+    .eighth1 {
+        font-size: 15px;
+        color: cyan;
+        font-family: "Rockwell Extra Bold";
+        padding-left: 100px;
+        padding-top: 90px;
+    }
+    .eighth2 {
+        padding-left: 350px;
+       margin-top: -184px;
+        font-size: 16px;
+    }
+    .eighth3 {
+        height: 40px;
+    }
+}
+@media screen and (max-width: 548px) and (min-width: 431px) {
+    .eighth {
+        width: 100%;
+        height: 330px;
+        background-color: darkblue;
+    }
+    .eighth1 {
+        font-size: 11px;
+        color: cyan;
+        font-family: "Rockwell Extra Bold";
+        padding-left: 100px;
+        padding-top: 90px;
+    }
+    .eighth2 {
+        padding-left: 270px;
+       margin-top: -150px;
+        font-size: 10px;
+    }
+    .eighth3 {
+        height: 30px;
+    }
+}
+@media screen and (max-width: 430px) and (min-width: 380px) {
+    .eighth {
+        width: 100%;
+        height: 310px;
+        background-color: darkorchid;
+    }
+    .eighth1 {
+        font-size: 11px;
+        color: cyan;
+        font-family: "Rockwell Extra Bold";
+        padding-left: 70px;
+        padding-top: 90px;
+    }
+    .eighth2 {
+        padding-left: 230px;
+        margin-top: -170px;
+        font-size: 12px;
+    }
+    .eighth3 {
+        height: 32px;
+        width: 140px;
+    }
+}
+@media screen and (max-width: 379px) and (min-width: 300px) {
+    .eighth {
+        width: 100%;
+        height: 310px;
+        background-color: darkorchid;
+    }
+    .eighth1 {
+        font-size: 9px;
+        color: cyan;
+        font-family: "Rockwell Extra Bold";
+        padding-left: 70px;
+        padding-top: 90px;
+    }
+    .eighth2 {
+        padding-left: 190px;
+        margin-top: -140px;
+        font-size: 8px;
+    }
+    .eighth3 {
+        height: 15px;
+        width: 70px;
+    }
+}
+@media screen and (max-width: 299px) and (min-width: 200px) {
+    .eighth {
+        width: 100%;
+        height: 310px;
+        background-color: darkorchid;
+    }
+    .eighth1 {
+        font-size: 5px;
+        color: cyan;
+        font-family: "Rockwell Extra Bold";
+        padding-left: 50px;
+        padding-top: 90px;
+    }
+    .eighth2 {
+        padding-left: 100px;
+        margin-top: -130px;
+        font-size: 5px;
+    }
+    .eighth3 {
+        height: 20px;
+        width: 60px;
+    }
+}
+@media screen and (max-width: 199px) and (min-width: 1px) {
+    .eighth {
+        width: 100%;
+        height: 310px;
+        background-color: darkorchid;
+    }
+    .eighth1 {
+        font-size: 3px;
+        color: cyan;
+        font-family: "Rockwell Extra Bold";
+        padding-left: 20px;
+        padding-top: 90px;
+    }
+    .eighth2 {
+        padding-left: 30px;
+        margin-top: -10px;
+        font-size: 5px;
+    }
+    .eighth3 {
+        height: 20px;
+        width: 60px;
+    }
+}
+.socialmedia:hover {
+    background-color: lightcyan;
+    color: cadetblue;
+}
+.power {
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+</style>
+
+
+
+</head>
+
+<body>
+<div class="fullpage">
+  <div class="first">
+    <div class="row">
+      <div class="firstpart">
+        <p style="font-weight: bold; font-family: 'Lucida Console'">layers</p>
+      </div>
+      <div class="secondpart">
+        <ul class="row"  >
+          <li>
+            <a style="text-decoration: none; font-family: Papyrus "   href="menuforbestproject.html">Menu</a>
+          </li>
+          &nbsp;  &nbsp;  &nbsp;
+          <li>
+            <a style="text-decoration: none;  font-family: Papyrus"  href="about%20for%20my%20best%20project.html">About</a>
+          </li>
+          &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+          <li>
+            <a style="text-decoration: none;  font-family: Papyrus" href="contact%20for%20best%20project.html"> Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div>
+    <!-- <div>
+      <img class="secomd1" src="https://images.squarespace-cdn.com/content/v1/59b8646aa803bb682a0789da/1669777565272-JH8PZB48MMUMUQDYFCG2/Xmas+Background.jpeg?format=2500w" width="100%">
+      <p class="second2">Bakeshop </p>
+      <p class="second3">GET LOST IN THE</p>
+      <p class="second4">MAGIC WONDERLAND</p>
+      <a style="text-decoration: none" href="" class="second5">Order Now</a>
+  
+  </div> -->
+  <a class="second6 socialmedia" style="text-decoration: none; color: darkblue;" target="_blank" href="social%20media%20for%20best%20project.html">Social Media</a>
+</div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="third">
+    <p>BEST ONLINE CAKE STORE @LAYERSBAKESHOP</p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2 col-md-3 col-sm-12 fourth fourth1 ">
+        <img src="https://images.squarespace-cdn.com/content/v1/59b8646aa803bb682a0789da/1635368449928-U6962ZDW5S9L1030PNMQ/image-asset.jpeg?format=750w" height="330px" width="280px">
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-12 fourth fourth1 fourth3">
+        <img src="https://images.squarespace-cdn.com/content/v1/59b8646aa803bb682a0789da/1635181084692-QICLOA0L71RKPSXPDKDF/image-asset.jpeg?format=750w" height="330px" width="280px">
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-12   fourth fourth1 fourth2 fourth3 ">
+        <img src="https://images.squarespace-cdn.com/content/v1/59b8646aa803bb682a0789da/1634664266956-6I7YLLHZGH4QJ6DOOX1J/image-asset.jpeg?format=750w" height="330px" width="280px">
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-12 fourth fourth1 fourth2 fourth3">
+        <img src="https://images.squarespace-cdn.com/content/v1/59b8646aa803bb682a0789da/1634664269783-IUQ6JIIVQD1525AANSTH/image-asset.jpeg?format=750w" height="330px" width="280px">
+      </div>
+    </div>
+
+    <div class="row" style="margin-top: -80px">
+      <div class="col-lg-2 col-md-3 col-sm-12 fourth fourth1">
+        <img src="https://images.squarespace-cdn.com/content/v1/59b8646aa803bb682a0789da/1634664267964-52ESRE2CLLSRXSYQC0AE/image-asset.jpeg?format=500w" height="330px" width="280px">
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-12 fourth fourth1 fourth3">
+        <img src="https://images.squarespace-cdn.com/content/v1/59b8646aa803bb682a0789da/1634664268425-YI5OIXW94R9QBXB1CWDH/image-asset.jpeg?format=500w" height="330px" width="280px">
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-12   fourth fourth1 fourth2 fourth3">
+        <img src="https://images.squarespace-cdn.com/content/v1/59b8646aa803bb682a0789da/1634664269432-GN2HKO3YY1IYNTXQTE4V/image-asset.jpeg?format=500w" height="330px" width="280px">
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-12 fourth fourth1 fourth2 fourth3">
+        <img src="https://images.squarespace-cdn.com/content/v1/59b8646aa803bb682a0789da/1634664270245-VZVMOQUCH2HQXSPBUWIK/image-asset.jpeg?format=500w" height="330px" width="280px">
+      </div>
+    </div>
+
+    <div class="row" style="margin-top: -80px">
+      <div class="col-lg-2 col-md-3 col-sm-12 fourth fourth1">
+        <img src="https://images.squarespace-cdn.com/content/v1/59b8646aa803bb682a0789da/1634664266956-6I7YLLHZGH4QJ6DOOX1J/image-asset.jpeg?format=500w" height="330px" width="280px">
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-12 fourth fourth1 fourth3">
+        <img src="https://images.squarespace-cdn.com/content/v1/59b8646aa803bb682a0789da/1634664270598-TU8KNDE4DACMUMU1K59T/image-asset.jpeg?format=500w" height="330px" width="280px">
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-12   fourth fourth1 fourth2 fourth3">
+        <img src="https://images.squarespace-cdn.com/content/v1/59b8646aa803bb682a0789da/1634664271187-XYMX8ZT153POBHJ0TMKW/image-asset.jpeg?format=500w" height="330px" width="280px">
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-12 fourth fourth1 fourth2 fourth3">
+        <img src="https://images.squarespace-cdn.com/content/v1/59b8646aa803bb682a0789da/1634664271765-XV7H4MOBF90017NA2W2I/image-asset.jpeg?format=500w" height="330px" width="280px">
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="fifth">
+    <p>Customized</p>
+  </div>
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="https://images.squarespace-cdn.com/content/v1/59b8646aa803bb682a0789da/1506049993993-M0A042DQ7JWZA748KHBG/sample_06.jpg?format=750w" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="https://images.squarespace-cdn.com/content/v1/59b8646aa803bb682a0789da/1506049995944-XGFWPHKTR71WLAGA81FL/sample_12.jpg?format=750w" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="https://images.squarespace-cdn.com/content/v1/59b8646aa803bb682a0789da/1506049996458-AWT6Q51UVTL0THRZMETD/sample_14.jpg?format=750w" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <div class="fifth">
+    <p>Wedding</p>
+  </div>
+  <br>
+  <div class="container">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="https://images.squarespace-cdn.com/content/v1/59b8646aa803bb682a0789da/1510106352348-YUMWOOAF1B0FQMWCND38/IMG_4292.JPG?format=750w" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="https://images.squarespace-cdn.com/content/v1/59b8646aa803bb682a0789da/1510037605838-TXTBOJQTNBS3KXK3ZQNZ/_DSC2007.jpg?format=750w" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="https://images.squarespace-cdn.com/content/v1/59b8646aa803bb682a0789da/1510106315919-9WIAD5BJ3VW6TA1JVX8Q/IMG_4296.JPG?format=750w" alt="Third slide">
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <div class="sixth">
+    <p class="sixth1">LAYER CAKE BAKERY: THE BEST DESTINATION FOR MOUTH-WATERING CAKES</p>
+  </div>
+  <div class="sixth">
+    <p class="sixth2">Every occasion becomes ten times more joyous with the sweetness of the cake. Whether it’s wedding or birthday cake delivery, Layer Cake Bakery will always come to your rescue. We make the most delicious baked goods to give the most delightful surprise to your taste buds.</p>
+  </div>
+  <div class="sixth">
+    <p class="sixth1">WHAT’S SO SPECIAL ABOUT US?</p>
+  </div>
+  <div class="sixth">
+    <p class="sixth2">Our local cake bakery is the harbinger of love and joy at your loved ones’ doors. If you are confused about choosing us, we understand that. But we will give you all the reasons to choose us:  </p>
+  </div>
+  <br>
+  <br>
+  <div class="sixth">
+    <p class="sixth3">PERSONALIZED SUGARY DELIGHTS</p>
+  </div>
+  <div class="sixth">
+    <p class="sixth4">Our Irvine bakery delivery is the best place to send personalized baked goods to the beloved souls in your life. Every cake at our cake shop defines perfection. We assure you that not a single soul will be disappointed by the appearance and taste of our bakery and desserts.   </p>
+  </div>
+  <div class="sixth">
+    <p class="sixth3">FAST DELIVERY</p>
+  </div>
+  <div class="sixth">
+    <p class="sixth4">We don’t just claim to be the best online cake store in Irvine. We prove it with our delivery speed. Order from us and see how fast the finger-licking goodies reach your or your favorite person’s place.</p>
+  </div>
+  <div class="sixth">
+    <p class="sixth3">AFFORDABLE PRICING</p>
+  </div>
+  <div class="sixth">
+    <p class="sixth4">Planning to get a three layer cake for your wedding but running low on budget? With Layer Cake Bakery at your service, you will never have to worry about the budget again. We offer the most delectable baked delights in Irvine and beyond. </p>
+  </div>
+  <br>
+  <br>
+  <!-- <div class="seventh">
+    <div class="row seventh1 seventh3">
+      <div class="card col-el-3 col-lg-3 col-md-5 col-sm-12 col-12" style="width: 22rem; ">
+        <div class="card-body">
+          <h5 class="card-title">2022-11-23 </h5>
+          <h6 class="card-subtitle mb-2 text-muted">Feedback</h6>
+          <p class="card-text">Fantastic Tiramisu. Macarons are also very good. Highly recommend. Iced latte was good too</p>
+          <a href="https://goo.gl/maps/F2REZspEoHt9edGfA" class="card-link">view review</a>
+        </div>
+      </div>
+      &nbsp;
+      &nbsp;
+      <div class="card  col-el-3 col-lg-3 col-md-5 col-sm-12 col-12" style="width: 22rem;">
+        <div class="card-body">
+          <h5 class="card-title">2022-12-1</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Feedback</h6>
+          <p class="card-text">Layer Cake Bakery helped me order a beautiful and delicious cake for my nephew's 21st bday! Thank you Layer Cake!.</p>
+          <a href="https://goo.gl/maps/ZyUaEyfQ9oF6wXyE6" class="card-link">view review</a>
+        </div>
+      </div>
+      &nbsp;
+      &nbsp;
+      <div class="card  col-el-3 col-lg-3 col-md-5 col-sm-12 col-12 seventh2" style="width: 22rem;">
+        <div class="card-body">
+          <h5 class="card-title">2022-12-3</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Feedback</h6>
+          <p class="card-text">Their earl grey pie looked intriguing. It's hard to find good scones in Irvine, their blueberry scone was yummy!</p>
+          <a href="https://goo.gl/maps/PmxTdq4f3EWJ5kwL7" class="card-link">view review</a>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <div class="eighth">
+    <div class="row">
+      <div  class="eighth1">
+        <p>
+          ABOUT<br>
+          ONLINE ORDER<br>
+          WEDDING + CUSTOM<br>
+          BIRTHDAY
+        </p>
+      </div>
+      <div class="eighth2">
+        <p style="color: cornsilk; font-size: 15px">
+          NEWSLETTER
+        </p>
+        <input class="eighth3" type="text" placeholder="Your Email Address">
+        <br>
+        <input class="eighth4" style="background-color: pink" type="submit" value="Join Now">
+        <br>
+        <br>
+        <input class="eighth4" style="background-color: pink" type="submit" value="PROVIDE FEEDBACK">
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
